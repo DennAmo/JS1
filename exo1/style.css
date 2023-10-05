@@ -1,0 +1,19 @@
+#square-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px; /*650px*/
+    height: 600px; /* 400px*/
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.square:nth-child(even) {
+    background-color: rgb(117, 29, 29);
+}
+
+.square.selected {
+    background-color: purple;
+}
